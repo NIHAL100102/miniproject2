@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quicksand:wght@600&family=Sedgwick+Ave+Display&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/bg.png');
+}
+.container-fluid h1{
+    font-family: "Nabla";
+    font-size: 80px; 
+    text-align: center;  
+    margin-left: 682px;
+} 
+.aboutcontainer{
+    margin: 20px;
+    background-color: rgb(217, 207, 245);
+    border-radius:20px;
+    width: 500px;
+    height: 200px;
+    margin-left: 560px;
+    margin-top:  50px;
+}
+.aboutcontainer:hover{
+    width: 520px ;
+    height: 220px;
+}
+.aboutcontainer p{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(71, 16, 87);
+    padding-top: 26px;
+    font-size: 20px;
+    font-family: 'Black Ops One', cursive;
+}
+.aboutcontainer h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 51px;
+    font-family: 'Black Ops One', cursive;
+}
+.carousel-inner img{
+    height: 100vh;
+    width: 100vw;
+    border-radius: 40px;
+}
+.cont{
+    margin: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.copyright {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 14px; 
+}
+.copyright p::before {
+    font-size: 16px; 
+    margin-right: 5px; 
+}
